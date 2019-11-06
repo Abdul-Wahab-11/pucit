@@ -1,0 +1,135 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.header__img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url(../img/1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8)), url(../img/1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header__heading {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+}
+
+.section-about h1 {
+  text-align: left;
+}
+
+.padding {
+  padding-top: 50px;
+}
+
+.section-programs {
+  background: lightgray;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-programs h1 {
+  margin-bottom: 50px;
+}
+
+.section-admissions {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-admissions h1 {
+  margin-bottom: 50px;
+}
+
+.section-faculty {
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9))), url(../img/1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.9)), url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-faculty h1 {
+  margin-bottom: 50px;
+}
+
+.section-faculty hr {
+  height: 3px;
+  background-color: white;
+  width: 100%;
+  border-radius: 500px;
+}
+
+.section-faculty .data {
+  text-align: left;
+}
+
+.section-courses {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-courses h3 {
+  margin: 50px 0 10px 0;
+}
+
+.footer {
+  padding: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul, li {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  background: black;
+  width: 100%;
+  padding: 0;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  color: grey;
+  text-decoration: none;
+  padding: 20px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 3px solid white;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
