@@ -117,7 +117,6 @@ ul, li {
 .navbar ul li {
   display: inline-block;
 }
-
 .navbar ul li a {
   display: inline-block;
   color: grey;
@@ -127,9 +126,7 @@ ul, li {
   transition: all .3s;
   border-bottom: 3px solid transparent;
 }
-
 .navbar ul li a:hover {
   border-bottom: 3px solid white;
   color: white;
 }
-/*# sourceMappingURL=style.css.map */
